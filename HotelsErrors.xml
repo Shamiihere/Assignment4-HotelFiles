@@ -4,7 +4,7 @@
     <Hotel Rating="4.4">
         <Name>Marriott Marquis New York</Name>
         <Phone>212-398-1900</Phone>
-        <Address>
+        <Address> <!-- Missing NearestAirport attribute -->
             <Number>1535</Number>
             <Street>Broadway</Street>
             <City>New York</City>
@@ -35,12 +35,13 @@
             <City>Chicago</City>
             <State>IL</State>
             <Zip>60601</Zip>
+        <!-- Missing closing tag for Address -->
     </Hotel>
 
     <!-- Error 4: Duplicate Name elements -->
     <Hotel Rating="4.5">
         <Name>InterContinental Boston</Name>
-        <Name>Another Name</Name>
+        <Name>Another Name</Name> <!-- Duplicate Name elements -->
         <Phone>617-747-1000</Phone>
         <Address NearestAirport="BOS">
             <Number>510</Number>
