@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Hotels>
     <!-- Hotel 1 -->
-    <Hotel Rating="4.2">
+    <Hotel>
         <Name>Westin</Name>
         <Phone>480-968-8885</Phone>
         <Phone>800-937-8461</Phone>
@@ -15,7 +15,7 @@
     </Hotel>
     
     <!-- Hotel 2 -->
-    <Hotel Rating="4.4">
+    <Hotel>
         <Name>Marriott Marquis New York</Name>
         <Phone>212-398-1900</Phone>
         <Phone>212-555-1234</Phone>
@@ -29,7 +29,7 @@
     </Hotel>
 
     <!-- Hotel 3 -->
-    <Hotel Rating="4.5">
+    <Hotel>
         <Name>Hilton San Francisco Union Square</Name>
         <Phone>415-771-1400</Phone>
         <Phone>415-555-5678</Phone>
@@ -56,7 +56,7 @@
     </Hotel>
 
     <!-- Hotel 5 -->
-    <Hotel Rating="4.7">
+    <Hotel>
         <Name>Ritz-Carlton Los Angeles</Name>
         <Phone>213-743-8800</Phone>
         <Phone>213-555-9876</Phone>
@@ -70,7 +70,7 @@
     </Hotel>
 
     <!-- Hotel 6 -->
-    <Hotel Rating="4.6">
+    <Hotel>
         <Name>Mandarin Oriental</Name>
         <Phone>212-805-8800</Phone>
         <Address NearestAirport="LGA">
@@ -109,7 +109,7 @@
     </Hotel>
 
     <!-- Hotel 9 -->
-    <Hotel Rating="4.5">
+    <Hotel>
         <Name>InterContinental Boston</Name>
         <Phone>617-747-1000</Phone>
         <Address NearestAirport="BOS">
@@ -122,7 +122,7 @@
     </Hotel>
 
     <!-- Hotel 10 -->
-    <Hotel Rating="4.7">
+    <Hotel>
         <Name>Burj Al Arab</Name>
         <Phone>971-4-301-7777</Phone>
         <Phone>971-4-301-1234</Phone>
