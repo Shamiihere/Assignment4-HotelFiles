@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Hotels xmlns="http://example.com/hotels">
     <!-- Error 1: Missing required attribute NearestAirport -->
     <Hotel Rating="4.4">
         <Name>Marriott Marquis New York</Name>
