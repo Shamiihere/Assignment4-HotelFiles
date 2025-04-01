@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://example.com/hotels"
+           xmlns="http://example.com/hotels"
+           xmlns:tns="http://example.com/hotels"
+           elementFormDefault="qualified">
           
-
     <!-- Root element -->
     <xs:element name="Hotels">
         <xs:complexType>
