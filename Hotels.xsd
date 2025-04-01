@@ -2,6 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            targetNamespace="http://example.com/hotels"
            xmlns="http://example.com/hotels"
+           xmlns:tns="http://example.com/hotels"
            elementFormDefault="qualified">
 
     <!-- Root element -->
