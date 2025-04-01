@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- Error 1: The root element name is Hotel instead of Hotels -->
-<Hotel>
-    <!-- Hotel 1 (With valid structure for reference) -->
-    <Hotel _Rating="4.2">
-        <Name>Westin</Name>
-        <Phone>480-968-8885</Phone>
-        <Phone>800-937-8461</Phone>
-        <Address _NearestAirport="Sky Habor">
-            <Number>11</Number>
-            <Street>E 7th St</Street>
-            <City>Tempe</City>
-            <State>AZ</State>
-            <Zip>85281</Zip>
-        </Address>
-    </Hotel>
-
-    <!-- Hotel 2 (Error 2: Required attribute NearestAirport is missing) -->
-    <Hotel _Rating="4.4">
+<Hotel xmlns="http://example.com/hotels">
+    <!-- Error 1: Incorrect root element name -->
+    
+    <!-- Error 2: Missing required attribute NearestAirport -->
+    <Hotel Rating="4.4">
         <Name>Marriott Marquis New York</Name>
         <Phone>212-398-1900</Phone>
-        <Phone>212-555-1234</Phone>
         <Address>
             <Number>1535</Number>
             <Street>Broadway</Street>
@@ -29,10 +15,10 @@
         </Address>
     </Hotel>
 
-    <!-- Hotel 3 (Error 3: Missing Phone element) -->
-    <Hotel _Rating="4.5">
+    <!-- Error 3: Missing Phone element -->
+    <Hotel Rating="4.5">
         <Name>Hilton San Francisco Union Square</Name>
-        <Address _NearestAirport="SFO">
+        <Address NearestAirport="SFO">
             <Number>333</Number>
             <Street>O'Farrell Street</Street>
             <City>San Francisco</City>
@@ -41,32 +27,29 @@
         </Address>
     </Hotel>
 
-    <!-- Hotel 4 (Error 4: No closing tag for Address element) -->
-    <Hotel>
+    <!-- Error 4: Address element with no closing tag -->
+    <Hotel Rating="4.7">
         <Name>Hyatt Regency Chicago</Name>
         <Phone>312-565-1234</Phone>
-        <Address _NearestAirport="ORD">
+        <Address NearestAirport="ORD">
             <Number>151</Number>
             <Street>E Wacker Dr</Street>
             <City>Chicago</City>
             <State>IL</State>
             <Zip>60601</Zip>
-        <!-- Missing closing tag for Address -->
-
     </Hotel>
 
-    <!-- Hotel 5 (Error 5: Two <Name> elements provided for one hotel) -->
-    <Hotel _Rating="4.7">
-        <Name>Ritz-Carlton Los Angeles</Name>
-        <Name>Duplicate Hotel Name</Name>
-        <Phone>213-743-8800</Phone>
-        <Phone>213-555-9876</Phone>
-        <Address _NearestAirport="LAX">
-            <Number>900</Number>
-            <Street>W Olympic Blvd</Street>
-            <City>Los Angeles</City>
-            <State>CA</State>
-            <Zip>90015</Zip>
+    <!-- Error 5: Duplicate Name elements -->
+    <Hotel Rating="4.5">
+        <Name>InterContinental Boston</Name>
+        <Name>Another Name</Name>
+        <Phone>617-747-1000</Phone>
+        <Address NearestAirport="BOS">
+            <Number>510</Number>
+            <Street>Atlantic Ave</Street>
+            <City>Boston</City>
+            <State>MA</State>
+            <Zip>02210</Zip>
         </Address>
     </Hotel>
 </Hotel>
