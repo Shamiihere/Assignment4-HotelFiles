@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
     <!-- Root element -->
@@ -19,10 +19,12 @@
                                         <xs:element name="State" type="xs:string"/>
                                         <xs:element name="Zip" type="xs:string"/>
                                     </xs:sequence>
+                                    <!-- Required attribute NearestAirport -->
                                     <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
+                        <!-- Optional attribute Rating -->
                         <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
                     </xs:complexType>
                 </xs:element>
