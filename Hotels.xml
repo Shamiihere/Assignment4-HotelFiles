@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Hotels>
     <!-- Hotel 1 -->
-    <Hotel _Rating="4.2">
+    <Hotel Rating="4.2">
         <Name>Westin</Name>
         <Phone>480-968-8885</Phone>
         <Phone>800-937-8461</Phone>
-        <Address _NearestAirport="Sky Habor">
+        <Address NearestAirport="Sky Habor">
             <Number>11</Number>
             <Street>E 7th St</Street>
             <City>Tempe</City>
@@ -15,11 +15,11 @@
     </Hotel>
     
     <!-- Hotel 2 -->
-    <Hotel _Rating="4.4">
+    <Hotel Rating="4.4">
         <Name>Marriott Marquis New York</Name>
         <Phone>212-398-1900</Phone>
         <Phone>212-555-1234</Phone>
-        <Address _NearestAirport="LGA">
+        <Address NearestAirport="LGA">
             <Number>1535</Number>
             <Street>Broadway</Street>
             <City>New York</City>
@@ -29,11 +29,11 @@
     </Hotel>
 
     <!-- Hotel 3 -->
-    <Hotel _Rating="4.5">
+    <Hotel Rating="4.5">
         <Name>Hilton San Francisco Union Square</Name>
         <Phone>415-771-1400</Phone>
         <Phone>415-555-5678</Phone>
-        <Address _NearestAirport="SFO">
+        <Address NearestAirport="SFO">
             <Number>333</Number>
             <Street>O'Farrell Street</Street>
             <City>San Francisco</City>
@@ -46,7 +46,7 @@
     <Hotel>
         <Name>Hyatt Regency Chicago</Name>
         <Phone>312-565-1234</Phone>
-        <Address _NearestAirport="ORD">
+        <Address NearestAirport="ORD">
             <Number>151</Number>
             <Street>E Wacker Dr</Street>
             <City>Chicago</City>
@@ -56,11 +56,11 @@
     </Hotel>
 
     <!-- Hotel 5 -->
-    <Hotel _Rating="4.7">
+    <Hotel Rating="4.7">
         <Name>Ritz-Carlton Los Angeles</Name>
         <Phone>213-743-8800</Phone>
         <Phone>213-555-9876</Phone>
-        <Address _NearestAirport="LAX">
+        <Address NearestAirport="LAX">
             <Number>900</Number>
             <Street>W Olympic Blvd</Street>
             <City>Los Angeles</City>
@@ -70,10 +70,10 @@
     </Hotel>
 
     <!-- Hotel 6 -->
-    <Hotel _Rating="4.6">
+    <Hotel Rating="4.6">
         <Name>Mandarin Oriental</Name>
         <Phone>212-805-8800</Phone>
-        <Address _NearestAirport="LGA">
+        <Address NearestAirport="LGA">
             <Number>80</Number>
             <Street>Columbus Circle</Street>
             <City>New York</City>
@@ -86,7 +86,7 @@
     <Hotel>
         <Name>Four Seasons Hotel Miami</Name>
         <Phone>305-358-3535</Phone>
-        <Address _NearestAirport="MIA">
+        <Address NearestAirport="MIA">
             <Number>1435</Number>
             <Street>Brickell Ave</Street>
             <City>Miami</City>
@@ -99,7 +99,7 @@
     <Hotel>
         <Name>Fairmont Chicago</Name>
         <Phone>312-565-8000</Phone>
-        <Address _NearestAirport="ORD">
+        <Address NearestAirport="ORD">
             <Number>200</Number>
             <Street>N Columbus Dr</Street>
             <City>Chicago</City>
@@ -109,10 +109,10 @@
     </Hotel>
 
     <!-- Hotel 9 -->
-    <Hotel _Rating="4.5">
+    <Hotel Rating="4.5">
         <Name>InterContinental Boston</Name>
         <Phone>617-747-1000</Phone>
-        <Address _NearestAirport="BOS">
+        <Address NearestAirport="BOS">
             <Number>510</Number>
             <Street>Atlantic Ave</Street>
             <City>Boston</City>
@@ -122,11 +122,11 @@
     </Hotel>
 
     <!-- Hotel 10 -->
-    <Hotel _Rating="4.7">
+    <Hotel Rating="4.7">
         <Name>Burj Al Arab</Name>
         <Phone>971-4-301-7777</Phone>
         <Phone>971-4-301-1234</Phone>
-        <Address _NearestAirport="DXB">
+        <Address NearestAirport="DXB">
             <Number>Jumeirah St</Number>
             <Street>Umm Suqeim</Street>
             <City>Dubai</City>
