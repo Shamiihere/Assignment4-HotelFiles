@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels>
+<Hotels xmlns="http://example.com/hotels">
     <Hotel Rating="4.4">
         <Name>Marriott Marquis New York</Name>
         <Phone>212-398-1900</Phone>
