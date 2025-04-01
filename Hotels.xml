@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Hotels xmlns="http://example.com/hotels">
+    <!-- Valid Hotel Entry -->
     <Hotel Rating="4.2">
         <Name>Westin</Name>
         <Phone>480-968-8885</Phone>
@@ -10,6 +11,44 @@
             <City>Tempe</City>
             <State>AZ</State>
             <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.4">
+        <Name>Marriott Marquis New York</Name>
+        <Phone>212-398-1900</Phone>
+        <Phone>212-555-1234</Phone>
+        <Address NearestAirport="LGA">
+            <Number>1535</Number>
+            <Street>Broadway</Street>
+            <City>New York</City>
+            <State>NY</State>
+            <Zip>10036</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.5">
+        <Name>Hilton San Francisco Union Square</Name>
+        <Phone>415-771-1400</Phone>
+        <Phone>415-555-5678</Phone>
+        <Address NearestAirport="SFO">
+            <Number>333</Number>
+            <Street>O'Farrell Street</Street>
+            <City>San Francisco</City>
+            <State>CA</State>
+            <Zip>94102</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.7">
+        <Name>Hyatt Regency Chicago</Name>
+        <Phone>312-565-1234</Phone>
+        <Address NearestAirport="ORD">
+            <Number>151</Number>
+            <Street>E Wacker Dr</Street>
+            <City>Chicago</City>
+            <State>IL</State>
+            <Zip>60601</Zip>
         </Address>
     </Hotel>
 </Hotels>
