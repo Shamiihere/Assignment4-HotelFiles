@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ERROR 1: The root element name is 'Hotel' instead of 'Hotels' -->
+<Hotel>
+    <Hotel Rating="4.5">
+        <Name>Marriott Marquis New York</Name>
+        <Phone>212-398-1900</Phone>
+        <Phone>212-555-1234</Phone>
+        <Address NearestAirport="JFK">
+            <Number>1535</Number>
+            <Street>Broadway</Street>
+            <City>New York</City>
+            <State>NY</State>
+            <Zip>10036</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <!-- ERROR 2: Missing Required Attribute (No Rating Attribute) -->
+        <Name>Hyatt Regency Chicago</Name>
+        <Phone>312-565-1234</Phone>
+        <Address NearestAirport="ORD">
+            <Number>151</Number>
+            <Street>E Wacker Dr</Street>
+            <City>Chicago</City>
+            <State>IL</State>
+            <Zip>60601</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.7">
+        <!-- ERROR 3: Missing Phone Element -->
+        <Name>Ritz-Carlton Los Angeles</Name>
+        <Address NearestAirport="LAX">
+            <Number>900</Number>
+            <Street>W Olympic Blvd</Street>
+            <City>Los Angeles</City>
+            <State>CA</State>
+            <Zip>90015</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.6">
+        <Name>Four Seasons Hotel Miami</Name>
+        <Phone>305-358-3535</Phone>
+        <!-- ERROR 4: No Closing Tag for Address -->
+        <Address NearestAirport="MIA">
+            <Number>1435</Number>
+            <Street>Brickell Ave</Street>
+            <City>Miami</City>
+            <State>FL</State>
+            <Zip>33131
+        </Address> <!-- Missing Closing Tag Here -->
+    </Hotel>
+
+    <Hotel Rating="4.4">
+        <!-- ERROR 5: Duplicate Name Elements -->
+        <Name>Fairmont Chicago</Name>
+        <Name>Duplicate Name</Name> <!-- This should cause an error -->
+        <Phone>312-565-8000</Phone>
+        <Address NearestAirport="ORD">
+            <Number>200</Number>
+            <Street>N Columbus Dr</Street>
+            <City>Chicago</City>
+            <State>IL</State>
+            <Zip>60601</Zip>
+        </Address>
+    </Hotel>
+</Hotel>
